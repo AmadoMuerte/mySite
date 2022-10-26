@@ -1,0 +1,31 @@
+.logo__item {
+    font-size: 25px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    transition: .3s;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(228, 220, 220), rgb(134, 83, 185));
+}
+
+.logo__item:hover {
+    transition: .3s;
+    color: rgb(134, 83, 185);
+}
+
+
+@media (max-width: 390px) {
+    .logo__item {
+        font-size: 20px;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        transition: .3s;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo__item {
+        font-size: 15px;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        transition: .3s;
+    }
+}

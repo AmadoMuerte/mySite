@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: -15px;
+}
+.nav__item {
+    margin-right: 15px;
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: rgba(207, 205, 210, 0.267);
+    width: 80px;
+    text-align: center;
+    padding: 5px 0px;
+    transition: .3s;
+}
+
+.nav__item:hover {
+    background-color: rgb(67, 51, 81);
+    transition: .3s;
+}
+
+.active {
+    background-color: rgb(134, 83, 185);
+    transition: .2s;    
+}
