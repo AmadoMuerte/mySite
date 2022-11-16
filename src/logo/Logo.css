@@ -6,6 +6,7 @@
 	-webkit-background-clip: text;
 	background-clip: text;
 	background-image: linear-gradient(to right, rgb(228, 220, 220), rgb(134, 83, 185));
+    tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .logo__item:hover {
@@ -29,3 +30,4 @@
         transition: .3s;
     }
 }
+
