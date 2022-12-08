@@ -18,16 +18,18 @@ import {
 import todoImage from './images/projects-image/todo-react.png'
 import loomStudio from './images/projects-image/loom_studio.jpg'
 import socialNetwork from './images/projects-image/social-network.png'
-
+import pomodoroTimer from './images/projects-image/pomodoro_timer.jpg'
 
 let projects = [
   {
-    image: socialNetwork,
-    name: 'Social Network',
-    code: 'https://github.com/AmadoMuerte/social-network',
-    description: 'A project I did on a course, the information was outdated but it was very helpful for me!',
-    technologies: ['React', 'Redux', 'React-redux', 'Axios', 'react-router-dom']
+    image: pomodoroTimer,
+    name: 'Pomodoro Timer',
+    link: 'https://pomodoro-amado.netlify.app/',
+    code: 'https://github.com/AmadoMuerte/pomodoro-timer',
+    description: 'My pomodoro timer on react js and redux toolkit',
+    technologies: ['React', 'Redux toolkit', 'react-redux', 'react-chartjs-2', 'react-router']
   },
+  
   {
     image: todoImage,
     name: 'Todo App',
@@ -37,12 +39,20 @@ let projects = [
     technologies: ['React', 'Css', 'Html']
   },
   {
+    image: socialNetwork,
+    name: 'Social Network',
+    code: 'https://github.com/AmadoMuerte/social-network',
+    description: 'A project I did on a course, the information was outdated but it was very helpful for me!',
+    technologies: ['React', 'Redux', 'React-redux', 'Axios', 'react-router-dom']
+  },
+  {
     image: loomStudio,
     name: 'Loom-Studio',
     code: 'https://github.com/AmadoMuerte/Education/tree/main/Loom_studio',
     description: 'One of my first projects using scss',
     technologies: ['Scss', 'Html']
   },
+  
   
 
 ]
